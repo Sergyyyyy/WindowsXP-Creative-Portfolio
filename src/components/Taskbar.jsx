@@ -10,7 +10,7 @@ const Taskbar = () => {
             <div className="taskbar-container">
                 <div className="taskbar">
                     <div className="start-container">start</div>
-                    <p>Creative project by <a href="#">Gio</a></p>
+                    <p>Creative project by Gio</p>
                     <p className="taskbar-time">{day}/{month}/{year}</p>
                 </div>
             </div>
