@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.loading-animation {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.loading-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #0f0f0f;
+
+  z-index: 1;
+
+  animation: fadeOut 1s forwards;
+  animation-delay: 6.5s;
+}
+
+.loading-text {
+  color: #00ff00;
+  animation: blinkSequence 6s forwards;
+}
+
+.loading-bar {
+  height: 40px;
+  width: 30%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+
+  padding: 4px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.bit {
+  height: 100%;
+  width: 100%;
+  background-color: #0f0f0f;
+  animation: blink 0.4s forwards;
+}
+
+.app-container {
+  background-image: url("./assets/background/backgroundv2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+
+  padding: 10px;
+
+  pointer-events: auto;
+}
+
+@keyframes blinkSequence {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    background-color: #00ff00;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bit1 {
+  animation-delay: 0s;
+}
+
+.bit2 {
+  animation-delay: 1s;
+}
+
+.bit3 {
+  animation-delay: 2s;
+}
+
+.bit4 {
+  animation-delay: 3.4s;
+}
+
+.bit5 {
+  animation-delay: 3.6s;
+}
+
+.bit6 {
+  animation-delay: 3.8s;
+}
+
+.bit7 {
+  animation-delay: 4s;
+}
+
+.bit8 {
+  animation-delay: 5s;
+}
+
+.bit9 {
+  animation-delay: 5.5s;
+}
+
+.bit10 {
+  animation-delay: 6s;
+}
+
+.icon-container {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.icon-container:hover {
+  background-color: rgba(230, 223, 223, 0.5);
+}
+
+.icon-container:active {
+  background-color: rgba(131, 130, 130, 0.5);
+}
+
+.icon-container h2 {
+  font-size: .7rem;
+  color: #fff;
+}
+
+.drag-div {
+  border: solid 1px #000;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.about-drag {
+  height: 400px;
+  width: 350px;
+  overflow-y: auto;
+}
+
+.taskbar {
+  width: 100vw;
+  height: 30px;
+  background-color: #2662df;
+  position: relative;
+  top: 380px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskbar p {
+  color: #fff;
+}
+
+.taskbar a {
+  color: #fff;
+}
+
+.start-container {
+  height: 100%;
+  width: 100px;
+  background-color: #1b851b;
+  text-align: center;
+  color: #fff;
+  align-content: center;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.taskbar-time {
+  height: 100%;
+  width: 100px;
+  background-color: #1190E9;
+  text-align: center;
+  color: #fff;
+  align-content: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.drag-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  background-color: #1190E9;
+}
+
+.exit-btn {
+  padding: 0px 10px;
+  background-color: #661c1c;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.aboutPic {
+  height: 100px;
+  width: 100px;
+}
+
+.about-top {
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-description {
+  text-align: justify;
+  padding: 20px;
+}
