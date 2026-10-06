@@ -278,6 +278,12 @@
   padding: 5px;
   background-color: #022571;
   color: #fff;
+
+  cursor: grab;
+}
+
+.drag-topbar:active {
+  cursor: grabbing;
 }
 
 .exit-btn {
@@ -339,4 +345,30 @@
 
 .bold-text {
   font-weight: 900;
+}
+
+.linkedin-link {
+  padding: 10px;
+  background-color: #022571;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.linkedin-link:hover {
+  background-color: #093eaf;
+}
+
+.github-link {
+  padding: 10px;
+  background-color: #012d29;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.github-link:hover {
+  background-color: #0c543f;
 }
