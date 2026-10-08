@@ -25,8 +25,9 @@ const About = () => {
       {toggle && (
         <Draggable
           nodeRef={nodeRef}
-          bounds={{ left: 0, top: -70, right: 1120, bottom: 270 }}
+          bounds={{ left: 0, top: -70, right: 970, bottom: 200 }}
           defaultPosition={{ x: 600, y: 100 }}
+          handle=".drag-topbar"
         >
           <div ref={nodeRef} className="drag-div about-drag">
             <div className="drag-topbar">
@@ -80,6 +81,7 @@ const About = () => {
                     href="https://www.linkedin.com/in/sergio-bono-pe%C3%B1alosa-955472340/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="linkedin-link"
                   >
                     Linkedin
                   </a>
@@ -87,6 +89,7 @@ const About = () => {
                     href="https://github.com/Sergyyyyy"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="github-link"
                   >
                     Github
                   </a>
