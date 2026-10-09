@@ -40,53 +40,50 @@ const Projects = () => {
             </div>
 
             <div className="scroll">
-              <div className="about-top">
-                <div className="about-hero">
-                  <h1 className="bold-text">GIO - PEÑALOSA</h1>
-                </div>
-              </div>
-              <div className="about-description">
-                <h4>
-                  I'm a third-year Information Systems student with a growing
-                  interest in web development and technology. I enjoy building
-                  things from scratch, experimenting with different tools and
-                  frameworks, and turning ideas into projects that are both
-                  useful and creative. Most of what I learn comes from actually
-                  making things, breaking them, figuring out why they broke, and
-                  trying again. <br />
-                  <br /> I'm interested in both the technical and creative sides
-                  of development, especially how design, functionality, and
-                  technology come together to create a good experience. I'm
-                  always looking for something new to learn or build, whether
-                  it's a personal project, a new concept I'm exploring, or an
-                  idea that randomly comes to mind. Outside of technology, I
-                  enjoy football, running, music, movies, exploring new places,
-                  and building random things whenever inspiration hits.
-                </h4>
-              </div>
-
-              <div className="about-cta">
-                <p className="about-cta-message">
-                  Have a project in mind, want to collaborate, or just want to
-                  say hi? Feel free to reach out through any of my links below.
-                </p>
-                <div className="links">
-                  <a
-                    href="https://www.linkedin.com/in/sergio-bono-pe%C3%B1alosa-955472340/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="linkedin-link"
-                  >
-                    Linkedin
-                  </a>
-                  <a
-                    href="https://github.com/Sergyyyyy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="github-link"
-                  >
-                    Github
-                  </a>
+              <div className="projects-container">
+                <div className="projects">
+                  <div className="project">
+                    <h2>Retrofolio</h2>
+                    <p>
+                      A personal portfolio inspired by the classic Windows XP
+                      desktop. Features a nostalgic interface, desktop icons,
+                      draggable windows, and interactive sections that present
+                      my work and background in a different way.
+                    </p>
+                    <ul>
+                      <li>React</li>
+                      <li>CSS</li>
+                    </ul>
+                  </div>
+                  <div className="project">
+                    <h2>OmniLio</h2>
+                    <p>
+                      A social-links experience designed to bring important
+                      profiles and online destinations together in one place.
+                      Focuses on a clean interface, glassmorphism, and a modern
+                      dark theme with green accents.
+                    </p>
+                    <ul>
+                      <li>React</li>
+                      <li>CSS</li>
+                      <li>Lucid React</li>
+                    </ul>
+                  </div>
+                  <div className="project">
+                    <h2>ItineraryPlanner</h2>
+                    <p>
+                      A travel-planning project focused on organizing
+                      destinations and creating a more convenient way to plan
+                      trips. An opportunity to experiment with interface design
+                      and features that help turn travel ideas into organized
+                      itineraries.
+                    </p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
