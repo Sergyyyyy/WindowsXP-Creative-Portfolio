@@ -22,8 +22,8 @@ const Contact = () => {
       {toggle && (
         <Draggable
           nodeRef={nodeRef}
-          bounds={{ left: 0, top: -70, right: 970, bottom: 200 }}
-          defaultPosition={{ x: 600, y: 100 }}
+          bounds={{ left: 0, top: -350, right: 970, bottom: -80 }}
+          defaultPosition={{ x: 200, y: -100 }}
           handle=".drag-topbar"
         >
           <div ref={nodeRef} className="drag-div about-drag">

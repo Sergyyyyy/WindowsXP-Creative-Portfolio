@@ -22,8 +22,8 @@ const Skills = () => {
       {toggle && (
         <Draggable
           nodeRef={nodeRef}
-          bounds={{ left: 0, top: -70, right: 970, bottom: 200 }}
-          defaultPosition={{ x: 600, y: 100 }}
+          bounds={{ left: 0, top: -210, right: 970, bottom: 60 }}
+          defaultPosition={{ x: 950, y: 50 }}
           handle=".drag-topbar"
         >
           <div ref={nodeRef} className="drag-div about-drag">

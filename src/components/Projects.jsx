@@ -22,8 +22,8 @@ const Projects = () => {
       {toggle && (
         <Draggable
           nodeRef={nodeRef}
-          bounds={{ left: 0, top: -70, right: 970, bottom: 200 }}
-          defaultPosition={{ x: 600, y: 100 }}
+          bounds={{ left: 0, top: -280, right: 970, bottom: -10 }}
+          defaultPosition={{ x: 300, y: -200 }}
           handle=".drag-topbar"
         >
           <div ref={nodeRef} className="drag-div about-drag">
