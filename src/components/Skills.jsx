@@ -17,7 +17,7 @@ const Skills = () => {
         }}
       >
         <img src={textIcon} alt="skills_icon" className="folder-icon" />
-        <h2>Skills</h2>
+        <h2>skills.txt</h2>
       </div>
 
       {toggle && (
@@ -41,53 +41,39 @@ const Skills = () => {
             </div>
 
             <div className="scroll">
-              <div className="about-top">
-                <div className="about-hero">
-                  <h1 className="bold-text">GIO - PEÑALOSA</h1>
+              <div className="skills-container">
+                <div className="skills-header">
+                  <h2>My Skills</h2>
                 </div>
-              </div>
-              <div className="about-description">
-                <h4>
-                  I'm a third-year Information Systems student with a growing
-                  interest in web development and technology. I enjoy building
-                  things from scratch, experimenting with different tools and
-                  frameworks, and turning ideas into projects that are both
-                  useful and creative. Most of what I learn comes from actually
-                  making things, breaking them, figuring out why they broke, and
-                  trying again. <br />
-                  <br /> I'm interested in both the technical and creative sides
-                  of development, especially how design, functionality, and
-                  technology come together to create a good experience. I'm
-                  always looking for something new to learn or build, whether
-                  it's a personal project, a new concept I'm exploring, or an
-                  idea that randomly comes to mind. Outside of technology, I
-                  enjoy football, running, music, movies, exploring new places,
-                  and building random things whenever inspiration hits.
-                </h4>
-              </div>
-
-              <div className="about-cta">
-                <p className="about-cta-message">
-                  Have a project in mind, want to collaborate, or just want to
-                  say hi? Feel free to reach out through any of my links below.
-                </p>
-                <div className="links">
-                  <a
-                    href="https://www.linkedin.com/in/sergio-bono-pe%C3%B1alosa-955472340/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="linkedin-link"
-                  >
-                    Linkedin
-                  </a>
-                  <a
-                    href="https://github.com/Sergyyyyy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="github-link"
-                  >
-                    Github
-                  </a>
+                <div className="skills">
+                  <div className="skill-group">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+                  <div className="skill-group">
+                    <h3>Backend Development</h3>
+                    <ul>
+                      <li>Python</li>
+                      <li>C#</li>
+                      <li>Node.js</li>
+                    </ul>
+                  </div>
+                  <div className="skill-group">
+                    <h3>Tools & Workflow</h3>
+                    <ul>
+                      <li>Git</li>
+                      <li>GitHub</li>
+                      <li>VS Code</li>
+                      <li>Figma</li>
+                      <li>Canva</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
