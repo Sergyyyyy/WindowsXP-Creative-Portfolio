@@ -396,3 +396,33 @@
   height: 300px;
   padding: 30px;
 }
+
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-header {
+  padding: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  height: 300px;
+}
+
+.skill-group {
+  font-size: large;
+}
+
+.skill-group h3{
+  font-weight: 600;
+}
