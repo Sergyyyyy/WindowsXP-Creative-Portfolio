@@ -16,7 +16,7 @@ const Projects = () => {
         }}
       >
         <img src={projectsIcon} alt="projects_icon" />
-        <h2>Projects</h2>
+        <h2>projects.txt</h2>
       </div>
 
       {toggle && (

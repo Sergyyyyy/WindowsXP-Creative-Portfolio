@@ -16,7 +16,7 @@ const Contact = () => {
         }}
       >
         <img src={contactIcon} alt="contact_icon" />
-        <h2>Contact Me</h2>
+        <h2>contact.txt</h2>
       </div>
 
       {toggle && (

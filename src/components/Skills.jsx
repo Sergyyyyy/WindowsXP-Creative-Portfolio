@@ -1,6 +1,7 @@
 import skillsIcon from "../assets/icons/skills_icon.png";
 import Draggable from "react-draggable";
 import { useState, useRef } from "react";
+import textIcon from "../assets/icons/text_icon.ico"; {/* Change here */}
 
 const Skills = () => {
   const [toggle, setToggle] = useState(false);
@@ -15,7 +16,7 @@ const Skills = () => {
           setToggle((prev) => !prev);
         }}
       >
-        <img src={skillsIcon} alt="skills_icon" />
+        <img src={textIcon} alt="skills_icon" className="folder-icon" />
         <h2>Skills</h2>
       </div>
 
@@ -28,7 +29,7 @@ const Skills = () => {
         >
           <div ref={nodeRef} className="drag-div about-drag">
             <div className="drag-topbar">
-              <h4>about.txt</h4>
+              <h4>skills.txt</h4>
               <button
                 className="exit-btn"
                 onClick={() => {
