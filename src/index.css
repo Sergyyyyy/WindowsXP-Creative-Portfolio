@@ -372,3 +372,27 @@
 .github-link:hover {
   background-color: #0c543f;
 }
+
+
+.experience-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;  
+
+  height: 300px;
+  padding: 30px;
+}
