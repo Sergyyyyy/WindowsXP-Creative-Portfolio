@@ -17,7 +17,7 @@ const Experience = () => {
         }}
       >
         <img src={textIcon} alt="work_exp_icon" className="folder-icon" /> {/* Change here */}
-        <h2>Experience</h2>
+        <h2>experience.txt</h2>
       </div>
 
       {toggle && (
