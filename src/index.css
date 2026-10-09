@@ -436,3 +436,8 @@
 
   padding: 20px;
 }
+
+.contact-drag {
+  height: 150px;
+  width: 500px;
+}
